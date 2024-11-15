@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input Types</title>
 </head>
+
 <body>
-    <label for="firstname">First Name</label>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="input_types.html">Input tags</a>
+            <a href="basictag.html">Basic tags</a>
+            <a href="audio_video.html">Audio & Video tags</a>
+        </nav>
+    </header>
+    <!-- input Types -->
+    <!-- <label for="firstname">First Name</label>
     <input type="text" placeholder="First Name">
     <br><br>
     <label for="lastname">Last Name</label>
@@ -69,11 +81,31 @@
     <br><br>
     <label for="url">URL:</label>
     <input type="url" >
-    <br><br>
-    
+    <br><br> -->
 
 
-
+    <fieldset>
+        <legend>Contact Form</legend>
+        <form>
+            <label for="firstname">First Name</label>
+            <input type="text" placeholder="First Name">
+            <br><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" placeholder="Last Name">
+            <br><br>
+            <label for="phone-number">Phone Number: </label>
+            <input type="number" placeholder="00000 00000">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email">
+            <br><br>
+            <label for="address">Address:</label>
+            <textarea placeholder="Enter your Address"></textarea>
+            <br><br>
+            <input type="button" value="Submit">
+        </form>
+    </fieldset>
 
 </body>
+
 </html>
